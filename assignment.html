@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to CSS</title>
+  
+  <!-- Internal CSS styles -->
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Verdana', sans-serif;  /* Set a sans-serif font for the body */
+      background-color: #f0f0f0;  /* Light grey background for the whole page */
+      margin: 0;  /* Remove default body margin */
+      padding: 0;  /* Remove default body padding */
+    }
+
+    /* Styling the container */
+    .container {
+      width: 80%;  /* Set the container width to 80% of the screen */
+      margin: 20px auto;  /* Center the container with a 20px margin */
+      padding: 20px;  /* Add padding inside the container */
+      background-color: #ffffff;  /* White background color for the container */
+      border: 2px solid #ccc;  /* Light grey border */
+      border-radius: 10px;  /* Rounded corners */
+    }
+
+    /* Header Styling */
+    #header {
+      text-align: center;  /* Center the text inside the header */
+      color: #fff;  /* White text color */
+      background-color: #4CAF50;  /* Green background for the header */
+      padding: 20px 0;  /* Top and bottom padding */
+      font-size: 2em;  /* Larger font size for the header */
+      margin-bottom: 20px;  /* Space below the header */
+    }
+
+    /* Paragraph Styling */
+    .text {
+      color: #333;  /* Dark grey color for the text */
+      line-height: 1.6;  /* Increase line height for readability */
+      margin: 15px 0;  /* Add top and bottom margin for spacing */
+      padding: 10px;  /* Add padding around the paragraph */
+    }
+
+    /* Image Styling */
+    img {
+      width: 100%;  /* Make the image responsive */
+      height: auto;  /* Maintain aspect ratio */
+      border: 5px solid #ddd;  /* Add a light border around the image */
+      border-radius: 8px;  /* Rounded corners for the image */
+      margin-bottom: 20px;  /* Add margin below the image */
+    }
+
+    /* Link Styling */
+    a {
+      color: #4CAF50;  /* Green link color */
+      text-decoration: none;  /* Remove underline from the link */
+      font-weight: bold;  /* Make the link text bold */
+    }
+
+    a:hover {
+      color: #FF5722;  /* Change color when the link is hovered */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header id="header">
+      <h1>Welcome to My Simple Page</h1>
+    </header>
+
+    <p class="text">This webpage is an introduction to CSS. We have applied basic styling using selectors, colors, typography, margins, paddings, and borders. CSS enhances the visual appearance of a webpage, making it more engaging and user-friendly.</p>
+
+    <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+
+    <p class="text">Thank you for visiting! CSS is an essential part of web development, and this page demonstrates just a small part of what you can achieve with it. You can learn more about CSS by exploring various online resources and tutorials.</p>
+
+    <p class="text">For more details, visit our <a href="#">Learn More</a> page.</p>
+  </div>
+
+</body>
+</html>
